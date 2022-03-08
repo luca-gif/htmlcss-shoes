@@ -66,10 +66,26 @@ section h2{
 }
 
 div .img{
+  height: 60%;
+  width: 45%;
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-size: cover;
+  background-position: center;
+}
+
+div .img.img-uno{
+  background-image: url(img/01.png);
+}
+
+div .img.img-due{
+  background-image: url(img/02.png);
+}
+
+div .img.img-tre{
+  background-image: url(img/03.png);
 }
 
 #uno {
@@ -84,7 +100,7 @@ div .img{
   background-color: yellow;
 }
 
-/* AGGIUNTA SHADOW */
+/* AGGIUNTA SHADOW AI LINK */
 
 nav ul li a:hover{
   box-shadow: 0px 3px 5px black;
